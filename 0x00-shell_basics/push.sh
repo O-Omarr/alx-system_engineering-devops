@@ -1,3 +1,4 @@
+#!/bin/bash
 git add .
 
 echo 'Enter the commit message:'
@@ -11,3 +12,4 @@ read branch
 git push origin $branch
 
 read
+
